@@ -16,6 +16,12 @@
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-size: 200%;
+}
+
+.navbar a img {
+    width: 3vw;
+    height: 3vh;
 }
 
 .navbar a:hover {
@@ -24,4 +30,37 @@
 
 body {
     background-color: #444;
+}
+
+.contents {
+    margin-top: 10vh;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-bottom: 10vh;
+    text-align: center;
+    color: #eee;
+    padding: 20px;
+}
+
+.me {
+    width: 20vw;
+    height: 20vh;
+    border-radius: 10%;
+    border: 2px solid #eee;
+    text-align: center;
+    background-color: #222;
+}
+
+#pfp {
+    margin: 0 auto;
+    margin-top: 1vh;
+    width: 6vw;
+    height: 6vh;
+    border-radius: 100%;
+    border: 2px solid #777;
+}
+
+#pfp:hover {
+    border: 2px solid #aaa;
+    cursor: pointer;
 }
